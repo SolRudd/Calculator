@@ -6,9 +6,9 @@ I created this to practice Javascript, HTML and CSS.
 
 ### Features :
 In this app user can :
-
-Calculate.
-Check the cursor out.
+<ul>
+<li>Calculate.</li>
+<li>Check the cursor out.</li>
 
 
 ### Technologies used:
