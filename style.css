@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4285F4, #DB4437, #F4B400, #0F9D58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background: #F24236;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 20px #E6E6E6, 10px 10px 20px #E6E6E6;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px #E6E6E6, 5px 5px 15px #E6E6E6;
+    background: #FFFFFF;
+    font-size: 20px;
+    color: #3E3E3E;
+    margin: 10px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: #FFFFFF;
+    background-color: #4285F4;
+    box-shadow: -8px -8px 15px #99B5E5, 5px 5px 15px #25406D;
+}
+
+form input[type="button"]:hover:not(.operator) {
+    background-color: #FFFFFF;
+    color: #3E3E3E;
+    box-shadow: -8px -8px 15px #E6E6E6, 5px 5px 15px #E6E6E6;
+}
+
+form input.equal:hover {
+    background-color: #FFFFFF;
+    color: #3E3E3E;
+    box-shadow: -8px -8px 15px #E6E6E6, 5px 5px 15px #E6E6E6;
+}
+
+form input.operator:hover {
+    background-color: #1A73E8;
+    box-shadow: -8px -8px 15px #7CA2CF, 5px 5px 15px #285A9F;
+}
